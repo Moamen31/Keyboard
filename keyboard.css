@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #dde1e7;
+}
+
+
+
+.wrapper {
+  background-color: #dde1e7;
+  box-shadow: -3px -3px 7px #ffffff73, 2px 2px 5px rgba(94, 104, 121, 0.288);
+  padding: 25px;
+  width: 750px;
+  border-radius: 10px;
+}
+
+.wrapper .row-keys {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper .row-keys input {
+  height: 50px;
+  min-width: 50px;
+  background-color: #dde1e7;
+  outline: none;
+  border: none;
+  box-shadow: -3px -3px 7px #ffffff73, 2px 2px 5px rgb(94 104 121 / 29%);
+  color: grey;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.wrapper .row-keys input:focus {
+  box-shadow: inset -3px -3px 7px #ffffff73,
+    inset 2px 2px 5px rgb(94 104 121 / 29%);
+  font-size: 19px;
+  color: #3498db;
+}
+
+.wrapper .row-keys input[value="space"] {
+  width: 60%;
+}
+
+.wrapper .display textarea {
+  width: 100%;
+  border: none;
+  outline: none;
+  resize: none;
+  height: 120px;
+  padding: 15px;
+  margin-bottom: 10px;
+  box-shadow: inset -3px -3px 7px #ffffff73,
+    inset 2px 2px 5px rgb(94 104 121 / 29%);
+  background-color: #dde1e7;
+  border-radius: 10px;
+  font-size: 18px;
+  color: #3498db;
+}
